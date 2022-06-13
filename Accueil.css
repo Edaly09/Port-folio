@@ -24,16 +24,26 @@ nav{
 }
 nav a{
     color: white;
+    text-decoration: none;
 }
 nav a:hover{
     color: rgb(9, 22, 139);
 }
 .container{
     display: flex;
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-right: 80px;
     margin-top: 80px;
     margin-bottom: 50px;
+    border: solid;
+    padding-left: 100px;
+   
   
+}
+body{
+    background-image: url("/image/EDALY.png");
+   
+    
 }
 aside{
     display: flex;
@@ -45,6 +55,8 @@ aside{
     text-transform: uppercase;
     font-size: larger;
     font-weight: bold;
+    
+    width: auto;
     
 }
 
@@ -59,7 +71,9 @@ main h1{
     text-transform: uppercase;
     font-size: larger;
     font-weight: bold;
+    
 }
+
 main h2{
     margin-bottom: 15PX;
     text-transform: uppercase;
@@ -76,4 +90,4 @@ align-items: center;
 footer{
     background-color: black;
       }
-      
+    
