@@ -15,6 +15,7 @@ header{
     
     justify-content: space-between;
     background-color: black;
+    
 }
 nav{
     display: flex;
@@ -37,13 +38,9 @@ nav a:hover{
     margin-bottom: 50px;
     border: solid;
     padding-left: 100px;
-   
-  
 }
 body{
     background-image: url("/image/EDALY.png");
-   
-    
 }
 aside{
     display: flex;
