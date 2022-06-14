@@ -14,7 +14,12 @@ header{
     display: flex;
     
     justify-content: space-between;
-    background-color: black;
+    /* background-image: url("./image/ordi.jpg");
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    padding-right: 200px; */
+    
     
 }
 nav{
@@ -35,13 +40,13 @@ nav a:hover{
     margin-left: 200px;
     margin-right: 80px;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     border: solid;
     padding-left: 100px;
 }
-body{
+/* body{
     background-image: url("/image/EDALY.png");
-}
+} */
 aside{
     display: flex;
     margin-top: 100px;
@@ -58,7 +63,7 @@ aside{
 }
 
 body{
-   font-family: 'Courgette', cursive; 
+  font-family: 'Oswald', sans-serif;
 }
 main{
     margin-top: 100px;

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+
+body{
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.logo{
+    width: 100px;
+   box-shadow: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+     
+}
+
+nav a{
+    color: rgb(25, 91, 177);
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: rgb(9, 22, 139);
+}
+body{
+    background-image: url("/image/EDALY.png");
+    font-family: 'Oswald', sans-serif;
+}
+.link{
+    width: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.git{
+    width: 100px;
+    margin-bottom: 27px;
+}
+.iphone{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.twit{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.contact{
+    width: 200px;
+    border-radius: 180px;
+    margin-left: 100px;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+    gap: 400px;
+}
+main h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+main p{
+    text-align: center;
+}
+aside{
+    flex-wrap: wrap;
+    
+}
+.art1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.art2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.art3{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.art4{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+aside a{
+    text-decoration: none;
+    color: blue;
+}
+aside h2{
+    /* font-family: 'Oswald', sans-serif; */
+}
+footer{
+    background-color: black;
+    padding-bottom: 200px;
+    margin-top: 80px;
+}
+footer img{
+    width: 50px;
+}
+.twit1{
+    width: 50px;
+}
+.git1{
+    width: 50px;
+}
+.link1{
+    width: 50px;
+    border-radius: 20px;
+}
+.icones{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    padding-top: 200px;
+}
+.para{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+}

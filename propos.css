@@ -1,0 +1,29 @@
+.logo{
+    width: 100px;
+   box-shadow: white;
+}
+header{
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: black;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+     
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(9, 22, 139);
+}
+body{
+    background-image: url("/image/EDALY.png");
+    font-family: 'Oswald', sans-serif;
+}
