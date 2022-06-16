@@ -1,0 +1,86 @@
+
+header{
+    justify-content: center;
+  display: flex;
+  flex-direction: column;
+    border-radius: 50px;
+    background-color: azure;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: space-between;
+}
+header h1{
+    font-weight: bold;
+}
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+footer{
+    margin-top: 20px;
+    border-top: 50px;
+    border-color: azure;
+    border-radius:  100px;
+    background-color: azure;
+    padding: 30px;
+    margin-bottom: 50px;
+    
+}
+aside{
+    width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+a:hover{
+color: red;
+}
+a:visited{
+color: red;
+}
+
+h1{
+    font-size: x-large;
+    font-weight: 200;
+    text-transform:uppercase;
+    
+}
+.centre{
+margin: auto;
+justify-content: center;
+/* background-color: azure; */
+}
+.contenair{
+    display: flex;
+    width: auto;
+
+}
+.contenair1{
+    text-align: justify;
+    background-color: azure;
+}
+.coord{
+justify-self: auto;
+}
+img{
+  width: 50px;
+}
+strong{
+    font-weight: bold;
+}
