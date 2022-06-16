@@ -238,3 +238,51 @@ h1{
     border: solid;
     border-bottom-style: double;
   }
+  .burger{
+    display: none;
+  }
+  
+  @media (max-width:768px) 
+   {
+    nav{
+      display: none;
+    }
+.container{
+  display: block;
+}
+
+.burger{
+  display: flex;
+  width: 50px;
+}
+.logoicone{
+  display: block;
+  gap: 30px;
+  margin-left: 80px;
+}
+.compet h3{
+  text-align:left;
+  
+}
+.compet{
+  margin-left: 10px;
+}
+main h2{
+  margin-left: 30px;
+}
+h1{
+  text-align: left;
+}
+.resu{
+  margin-left: 60px;
+}
+.arti{
+  margin-left: 50px;
+}
+
+  }
+
+
+
+
+

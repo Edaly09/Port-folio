@@ -206,5 +206,34 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.burger{
+  display: none;
+}
 
-    
+  @media (max-width:768px) 
+   {
+    nav{
+      display: none;
+    }
+    main{
+      align-items: center;
+      margin-left: 0px;
+      margin-top: 20px;
+      font-family: 'Courgette', cursive;
+  }
+  .burger{
+    display: flex;
+    width: 50px;
+  }
+  .container{
+    margin-top: 20px;
+  }
+  body{
+    justify-content: flex-start;
+  }
+  }
+
+
+  /* copier */
+
+  
