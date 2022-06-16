@@ -4,11 +4,13 @@
 /* font-family: 'Courgette', cursive; */
 
 
-body{
-    /* font-family: 'Courgette', cursive; */
-    font-family: 'Oswald', sans-serif;
+/* body{
+    font-family: 'Courgette', cursive;
+    background-image: url("./image/ordi.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
 
-}
+} */
 
 
 .logo{
@@ -18,28 +20,29 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    /* background-color: black; */
     
 }
 nav{
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 30px;
      
 }
 
 nav a{
-    color: rgb(25, 91, 177);
+    color: rgb(16, 16, 17);
     text-decoration: none;
+    font-size: large;
+    font-weight: bold;
 
 }
 nav a:hover{
     color: rgb(9, 22, 139);
 }
-body{
+/* body{
     background-image: url("/image/EDALY.png");
     font-family: 'Oswald', sans-serif;
-}
+} */
 .link{
     width: 100px;
     margin-bottom: 20px;
@@ -104,13 +107,13 @@ aside a{
     text-decoration: none;
     color: blue;
 }
-aside h2{
-    /* font-family: 'Oswald', sans-serif; */
-}
+
 footer{
     background-color: black;
-    padding-bottom: 200px;
-    margin-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+
+    
 }
 footer img{
     width: 50px;
