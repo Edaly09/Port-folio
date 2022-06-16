@@ -1,31 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+
+
+
+/* 
 .logo{
     width: 100px;
    box-shadow: white;
-}
+} */
 header{
     display: flex;
-    
-    /* justify-content: space-between; */
-    /* background-color: black; */
+    margin-top: 40px;
+    justify-content: flex-end;
+
     
 }
 nav{
     display: flex;
     align-items: center;
     gap: 45px;
-    margin-left: 900px;
+    /* margin-left: 900px; */
     font-family: 'Oswald', sans-serif;
+    margin-right: 100px;
 }
 
 nav a{
     color:black;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+
 }
 nav a:hover{
     /* color: rgb(9, 22, 139); */
     font-family: 'Oswald', sans-serif;
-    transition: .5s linear;
-    text-shadow: rgb(9, 22, 139); 
+    transition: .5s linear; 
+    text-shadow: 0 0 10px rgb(150, 23, 23),
+                 0 0 20px rgb(114, 9, 9), 
+                 0 0 40px rgb(143, 6, 6);
+                 text-transform:uppercase;
+                 font-size: xx-large;
+                 font-weight: bold;
 
 }
 body{
@@ -42,10 +61,12 @@ h1{
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 7px;
-    cursor: pointer
+    cursor: pointer;
+    margin-top: 60px;
+    text-align: center;
   }
   h1 span{
-    transition: .5s linear
+    transition:  .5s linear;
   }
   
   h1:hover span{
@@ -54,4 +75,59 @@ h1{
                  0 0 20px rgb(114, 9, 9), 
                  0 0 40px rgb(143, 6, 6);
                  text-transform: uppercase;
+  }
+  .propos{
+    text-align: justify;
+    margin-top: 30px;
+  }
+  .arti{
+    margin-top: 40px;
+    /* text-align:justify; */
+    width: 50%;
+    gap: 10px;
+  }
+  h2:hover{
+    color: #fff;
+    text-shadow: 0 0 10px rgb(150, 23, 23),
+                 0 0 20px rgb(114, 9, 9), 
+                 0 0 40px rgb(143, 6, 6);
+                 text-transform:uppercase;
+                 font-size: xx-large;
+                 font-weight: bold;
+  }
+  .container{
+    display: flex;
+    gap: 80px;
+  }
+  .gauche{
+    width: 50%;
+    margin-top: 34px;
+  }
+  @media (max-width:768px) {
+    nav{
+        display: none;
+    }
+  }
+  main h2{
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(150, 23, 23),
+                 0 0 20px rgb(114, 9, 9), 
+                 0 0 40px rgb(143, 6, 6);
+                 text-transform:uppercase;
+                 font-size: xx-large;
+                 font-weight: bold;
+                 transition:  .5s linear
+  }
+  .gauche h2{
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(150, 23, 23),
+                 0 0 20px rgb(114, 9, 9), 
+                 0 0 40px rgb(143, 6, 6);
+                 text-transform:uppercase;
+                 font-size: xx-large;
+                 font-weight: bold;
+              transition:  .5s linear
   }

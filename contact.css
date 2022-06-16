@@ -19,7 +19,9 @@
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
+    background-color: black;
+ padding-bottom: 40px;
     
 }
 nav{
@@ -30,7 +32,7 @@ nav{
 }
 
 nav a{
-    color: rgb(16, 16, 17);
+    color: white;
     text-decoration: none;
     font-size: large;
     font-weight: bold;
@@ -62,9 +64,14 @@ nav a:hover{
     margin-bottom: 20px;
 }
 .contact{
-    width: 200px;
-    border-radius: 180px;
+    height: 130px;
+    width: 100px;
+    border-radius: 90px;
     margin-left: 100px;
+    
+
+
+
 }
 .container{
     display: flex;
@@ -75,7 +82,19 @@ main h1{
     text-transform: uppercase;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    
 }
+:hover h1 span{
+    transition:  .5s linear;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(150, 23, 23),
+                 0 0 20px rgb(114, 9, 9), 
+                 0 0 40px rgb(143, 6, 6);
+                 text-transform: uppercase;
+                 
+
+  }
 main p{
     text-align: center;
 }
@@ -140,3 +159,16 @@ footer img{
     padding-top: 100px;
     text-transform: uppercase;
 }
+
+@media (max-width:768px) {
+    nav{
+        display: none;
+    }
+    .container{
+    display: block;
+    align-items: center;
+    }
+    aside h2{
+        text-align: center;
+    }
+  }

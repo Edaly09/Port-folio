@@ -9,25 +9,28 @@
 .logo{
     width: 100px;
    box-shadow: white;
-   margin-left: 18px;
+   margin-left: 180px;
 }
 header{
     display: flex;
-    /* justify-content: space-between; */
-    /* background-color: black; */
     padding-right: 3px;
+    width: 100%;
+    justify-content: flex-end;
     
     
 }
 nav{
     display: flex;
-    margin-left: 900px;
+    /* margin-left: 900px; */
     gap: 45px;
-    padding-top: 15px;
+    padding-top: 8px;
+    flex-direction: row;
+    /* margin-right: 180px; */
      
 }
 nav a{
-    color: rgb(14, 13, 13);
+    /* color: rgb(14, 13, 13); */
+    color: black;
     text-decoration: none;
     font-size: larger;
 }
@@ -53,8 +56,8 @@ body{
 
 main{
     align-items: center;
-    margin-left: 300px;
-    margin-top: 200px;
+    margin-left: 236px;
+    margin-top: 94px;
 
 }
 main h1{
@@ -79,7 +82,7 @@ width: 100px;
 align-items: center;
 }
 footer{
-    background-color:white;
+    background-color:rgb(12, 11, 11);
       }
     /* copier */
 
