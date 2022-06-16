@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /* font-family: 'Oswald', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
@@ -21,21 +23,30 @@ header{
 }
 nav{
     display: flex;
-    /* margin-left: 900px; */
     gap: 45px;
     padding-top: 8px;
     flex-direction: row;
-    /* margin-right: 180px; */
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 30px;
      
 }
 nav a{
-    /* color: rgb(14, 13, 13); */
     color: black;
     text-decoration: none;
     font-size: larger;
+    font-family: 'Oswald', sans-serif;
+
 }
 nav a:hover{
-    color: rgb(9, 22, 139);
+     font-family: 'Oswald', sans-serif;
+     transition: .5s linear; 
+     text-shadow: 0 0 10px rgb(150, 23, 23),
+                  0 0 20px rgb(114, 9, 9), 
+                  0 0 40px rgb(143, 6, 6);
+                  text-transform:uppercase;
+                  font-size: xx-large;
+                  font-weight: bold;
 }
 .container{
     display: flex;
@@ -50,6 +61,7 @@ nav a:hover{
 
 body{
   font-family: 'Oswald', sans-serif;
+  
 
 
 }
@@ -58,6 +70,8 @@ main{
     align-items: center;
     margin-left: 236px;
     margin-top: 94px;
+    font-family: 'Courgette', cursive;
+
 
 }
 main h1{
@@ -81,9 +95,14 @@ footer img{
 width: 100px;
 align-items: center;
 }
-footer{
-    background-color:rgb(12, 11, 11);
-      }
+  footer{
+    margin-top: 20px;
+    background-color: cadetblue;
+    border: solid;
+    border-bottom-style: double;
+    width: auto
+  }
+  
     /* copier */
 
 

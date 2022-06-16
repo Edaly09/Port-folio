@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+
+/* body{
+    font-family: 'Courgette', cursive;
+    background-image: url("./image/ordi.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+} */
+
+
+.logo{
+    width: 100px;
+   box-shadow: white;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    background-color: white;
+ padding-bottom: 40px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+     
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+
+}
+nav a:hover{
+    font-family: 'Oswald', sans-serif;
+    transition: .5s linear; 
+    text-shadow: 0 0 10px rgb(150, 23, 23),
+                 0 0 20px rgb(114, 9, 9), 
+                 0 0 40px rgb(143, 6, 6);
+                 text-transform:uppercase;
+                 font-size: xx-large;
+                 font-weight: bold;
+}
+/* body{
+    background-image: url("/image/EDALY.png");
+    font-family: 'Oswald', sans-serif;
+} */
+.link{
+    width: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.git{
+    width: 100px;
+    margin-bottom: 27px;
+}
+.iphone{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.twit{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.contact{
+    height: 130px;
+    width: 100px;
+    border-radius: 90px;
+    margin-left: 100px;
+    
+
+
+
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+    gap: 400px;
+    
+}
+main h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    
+}
+
+main p{
+    text-align: center;
+}
+aside{
+    flex-wrap: wrap;
+    
+}
+.art1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.art2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.art3{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.art4{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+aside a{
+    text-decoration: none;
+    color: rgb(12, 12, 14);
+    font-size: large;
+    font-weight: bold;
+}
+aside a:hover {
+    color: blue;
+}
+
+
+
+.twit1{
+    width: 50px;
+}
+.git1{
+    width: 50px;
+}
+.link1{
+    width: 50px;
+    border-radius: 20px;
+}
+.icones{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    padding-top: 200px;
+}
+.para{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+    nav{
+        display: none;
+    }
+    .container{
+    display: block;
+    align-items: center;
+    }
+    aside h2{
+        text-align: center;
+    }
+  }
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+  .jt {
+    position: relative;
+    font-size: 10vmin;
+    font-family: 'Staatliches', sans-serif;
+    text-transform: lowercase;
+    font-display: swap;
+    text-shadow: 0 0 10px white;
+  }
+  
+  .jt__row {
+    display: block;
+  }
+  .jt__row:nth-child(1) {
+    clip-path: polygon(-10% 75%, 110% 75%, 110% 110%, -10% 110%);
+  }
+  .jt__row:nth-child(2) {
+    clip-path: polygon(-10% 50%, 110% 50%, 110% 75.3%, -10% 75.3%);
+  }
+  .jt__row:nth-child(3) {
+    clip-path: polygon(-10% 25%, 110% 25%, 110% 50.3%, -10% 50.3%);
+  }
+  .jt__row:nth-child(4) {
+    clip-path: polygon(-10% 0%, 110% 0%, 110% 25.3%, -10% 25.3%);
+  }
+  
+  .jt__row.jt__row--sibling {
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    witdh:20px;
+  }
+  
+  .jt__text {
+    display: block;
+    transform-origin: bottom left;
+    animation: moveIn 2s 0s cubic-bezier(.36,0,.06,1) alternate infinite ;
+  }
+  .jt__row:nth-child(1) .jt__text {
+    transform: translateY(-0.1em);
+  }
+  .jt__row:nth-child(2) .jt__text {
+    transform: translateY(-0.3em) scaleY(1.1);
+  }
+  .jt__row:nth-child(3) .jt__text {
+    transform: translateY(-0.5em) scaleY(1.2) ;
+  }
+  .jt__row:nth-child(4) .jt__text {
+    transform: translateY(-0.7em) scaleY(1.3) ;
+  }
+  .jt__row:nth-child(5) .jt__text {
+    transform: translateY(-0.9em) scaleY(1.4) ;
+  }
+  .jt__row:nth-child(6) .jt__text {
+    transform: translateY(-1.1em) scaleY(1.5) ;
+  }
+  
+  @keyframes moveIn {
+    50%, 100% { 
+      transform: translateY(0em)
+    }
+    0%   { 
+    opacity: 0; 
+    filter: blur(10px);
+    
+    }
+    100% { 
+    opacity: 1; 
+    filter: blur(0px);
+    }
+  }
+  
+  
+  
+  .debug .jt__row:nth-child(even) {
+    color: black;
+    background: white;
+  }
+  .debug .jt__row:nth-child(odd) {
+    color: white;
+    background: black;
+  }
+  
+  * { box-sizing: border-box }
+  footer{
+    margin-right: auto;
+  }
