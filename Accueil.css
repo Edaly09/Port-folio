@@ -36,6 +36,24 @@ section h2{
   font-display: swap;
   text-shadow: 0 0 10px violet;
 }
+@media (max-width: 768px) {
+  
+  .jt {
+    position: relative;
+    font-size: 10vmin;
+    font-family: 'Staatliches', sans-serif;
+    text-transform: uppercase;
+    font-display: swap;
+    text-shadow: 0 0 10px violet;
+    margin-left: 18px;
+}
+section{
+  margin-left: 18px;
+}
+
+};
+  
+
 
 .jt__row {
   display: block;
@@ -125,4 +143,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+    background-image: url("./image/EDALY.png"); 
+    background-size:contain;
+  
+      }
