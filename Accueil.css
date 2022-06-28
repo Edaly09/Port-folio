@@ -147,3 +147,30 @@ body {
     background-size:contain;
   
       }
+.cv{
+  /* margin-top: 80px; */
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(41, 141, 20);
+  color: black;
+  font-weight: bold;
+  font-family:  'Courgette', cursive;
+  display: flex;
+  justify-content: center;
+}
+footer a{
+  text-decoration: none;
+
+}
+footer{
+  /* background-color: white; */
+  padding-top: 60px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 10px;
+  padding-right: 100px; 
+  padding-bottom: 10px;
+  width: 100%;
+}
